@@ -24,3 +24,6 @@ Route::get('/', function () {
 Route::get('/feature', function () {
     return view('pages.feature');
 })->name('feature');
+Route::get('/blog', function () {
+    return view('pages.blog');
+})->name('blog');

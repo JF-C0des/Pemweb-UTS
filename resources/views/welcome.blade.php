@@ -8,8 +8,8 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <link href="{{ asset('assets3/img1/favicon.png') }}" rel="icon">
-  <link href="{{ asset('assets3/img1/apple-touch-icon.png') }}" rel="apple-touch-icon">
+  <link href="{{ asset('assets3/img/favicon.png') }}" rel="icon">
+  <link href="{{ asset('assets3/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -22,7 +22,7 @@
   <link href="{{ asset('assets3/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
   <link href="{{ asset('assets3/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
-  <link href="{{ asset('assets3/css1/main.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets3/css/main.css') }}" rel="stylesheet">
 
   </head>
 
@@ -31,7 +31,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="{{ route('home') }}" class="logo d-flex align-items-center">
         <h1 class="sitename">Selecao</h1>
       </a>
 
@@ -42,7 +42,7 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="{{ route('blog') }}">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -206,7 +206,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('assets3/img1/working-1.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('assets3/img/working-1.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div><div class="tab-pane fade" id="features-tab-2">
@@ -230,7 +230,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('assets3/img1/working-2.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('assets3/img/working-2.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div><div class="tab-pane fade" id="features-tab-3">
@@ -253,7 +253,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('assets3/img1/working-3.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('assets3/img/working-3.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div><div class="tab-pane fade" id="features-tab-4">
@@ -276,7 +276,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('assets3/img1/working-4.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('assets3/img/working-4.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div></div>
@@ -389,75 +389,75 @@
           </ul><div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-1.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-1.jpg') }}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-1.jpg') }}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-2.jpg') }}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-2.jpg') }}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-3.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-3.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-3.jpg') }}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-3.jpg') }}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-4.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-4.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-4.jpg') }}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-4.jpg') }}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-5.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-5.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 2</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-5.jpg') }}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-5.jpg') }}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-6.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-6.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 2</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-6.jpg') }}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-6.jpg') }}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-7.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-7.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-7.jpg') }}" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-7.jpg') }}" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-8.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-8.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 3</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-8.jpg') }}" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-8.jpg') }}" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-9.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-9.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 3</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="{{ asset('assets3/img1/masonry-portfolio/masonry-portfolio-9.jpg') }}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('assets3/img/masonry-portfolio/masonry-portfolio-9.jpg') }}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div></div></div>
@@ -501,7 +501,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="{{ asset('assets3/img1/testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets3/img/testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
                 <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
                 <div class="stars">
@@ -515,7 +515,7 @@
               </div>
             </div><div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="{{ asset('assets3/img1/testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets3/img/testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
                 <div class="stars">
@@ -529,7 +529,7 @@
               </div>
             </div><div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="{{ asset('assets3/img1/testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets3/img/testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
                 <div class="stars">
@@ -543,7 +543,7 @@
               </div>
             </div><div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="{{ asset('assets3/img1/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets3/img/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
                 <div class="stars">
@@ -557,7 +557,7 @@
               </div>
             </div><div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="{{ asset('assets3/img1/testimonials/testimonials-5.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets3/img/testimonials/testimonials-5.jpg') }}" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
                 <div class="stars">
@@ -720,7 +720,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{ asset('assets3/img1/team/team-1.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('assets3/img/team/team-1.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -736,7 +736,7 @@
           </div><div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{ asset('assets3/img1/team/team-2.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('assets3/img/team/team-2.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -752,7 +752,7 @@
           </div><div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{ asset('assets3/img1/team/team-3.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('assets3/img/team/team-3.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -768,7 +768,7 @@
           </div><div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{ asset('assets3/img1/team/team-4.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('assets3/img/team/team-4.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -798,7 +798,7 @@
             <article>
 
               <div class="post-img">
-                <img src="{{ asset('assets3/img1/blog/blog-1.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('assets3/img/blog/blog-1.jpg') }}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Politics</p>
@@ -808,7 +808,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="{{ asset('assets3/img1/blog/blog-author.jpg') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{ asset('assets3/img/blog/blog-author.jpg') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Maria Doe</p>
                   <p class="post-date">
@@ -822,7 +822,7 @@
             <article>
 
               <div class="post-img">
-                <img src="{{ asset('assets3/img1/blog/blog-2.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('assets3/img/blog/blog-2.jpg') }}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Sports</p>
@@ -832,7 +832,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="{{ asset('assets3/img1/blog/blog-author-2.jpg') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{ asset('assets3/img/blog/blog-author-2.jpg') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Allisa Mayer</p>
                   <p class="post-date">
@@ -846,7 +846,7 @@
             <article>
 
               <div class="post-img">
-                <img src="{{ asset('assets3/img1/blog/blog-3.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('assets3/img/blog/blog-3.jpg') }}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Entertainment</p>
@@ -856,7 +856,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="{{ asset('assets3/img1/blog/blog-author-3.jpg') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{ asset('assets3/img/blog/blog-author-3.jpg') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Mark Dower</p>
                   <p class="post-date">
@@ -968,7 +968,7 @@
   <script src="{{ asset('assets3/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
   <script src="{{ asset('assets3/vendor/swiper/swiper-bundle.min.js') }}"></script>
 
-  <script src="{{ asset('assets3/js1/main.js') }}"></script>
+  <script src="{{ asset('assets3/js/main.js') }}"></script>
 
 </body>
 
