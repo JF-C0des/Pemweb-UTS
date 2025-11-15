@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Blog - Selecao Bootstrap Template</title>
+  <title>Blog - TechnoFix</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -46,7 +46,7 @@
       <a href="{{ route('home') }}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Selecao</h1>
+        <h1 class="sitename">TechnoFix</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -56,24 +56,6 @@
           <li><a href="{{ route('home') }}#services">Services</a></li>
           <li><a href="{{ route('home') }}#portfolio">Portfolio</a></li>
           <li><a href="{{ route('home') }}#team">Team</a></li>
-          <li><a href="{{ route('blog') }}" class="active">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
           <li><a href="{{ route('home') }}#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -289,7 +271,7 @@
 
   <footer id="footer" class="footer dark-background">
     <div class="container">
-      <h3 class="sitename">Selecao</h3>
+      <h3 class="sitename">TechnoFix</h3>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -300,7 +282,7 @@
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Selecao</strong> <span>All Rights Reserved</span>
+          <span>Copyright</span> <strong class="px-1 sitename">TechnoFix</strong> <span>All Rights Reserved</span>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
